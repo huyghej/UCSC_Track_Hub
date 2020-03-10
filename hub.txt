@@ -1,0 +1,5 @@
+hub UCSC_colorectal_hub
+shortLabel UCSC_colorectal
+longLabel UCSC Colorectal Genomic Annotation
+genomesFile genomes.txt
+email jhuyghe@fredhutch.org

@@ -1,0 +1,29 @@
+################################################
+track Overlay_Normal_Colon_Crypt_enhancers
+type bigWig
+container multiWig
+shortLabel NormalCryptK27Enh
+longLabel This overlay track graphs signal from four H3K27ac bigWig for normal colon crypt cells
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 1
+
+
+track Enhancer_Normal_Colon_Crypt_H3K27ac_C29
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/C29_H3K27ac/C29_out/signal/macs2/rep1/C29_H3K27ac.nodup.tagAlign_x_C29_Input.nodup.tagAlign.pval.signal.bw
+shortLabel C29_Enhancer
+longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_C29
+parent Overlay_Normal_Colon_Crypt_enhancers
+type bigWig
+color 183,183,218
+
+track Enhancer_Normal_Colon_Crypt_H3K27ac_Crypt5
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/Crypt5_H3K27ac/Crypt5_out/signal/macs2/rep1/Crypt5_H3K27ac.nodup.tagAlign_x_Crypt5_Input.nodup.tagAlign.pval.signal.bw
+shortLabel Crypt5_Enhancer
+longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_Crypt5
+parent Overlay_Normal_Colon_Crypt_enhancers
+type bigWig
+color 183,183,218
