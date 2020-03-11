@@ -1,0 +1,1360 @@
+################################################
+track Overlay_Normal_Colon_Crypt_enhancers
+type bigWig
+container multiWig
+shortLabel NormalCryptK27Enh
+longLabel This overlay track graphs signal from four H3K27ac bigWig for normal colon crypt cells
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 1
+
+#track Enhancer_Normal_Colon_Crypt_H3K27ac_C28
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058021/suppl/GSM2058021_C28_H3K27ac.bw
+#shortLabel C28_Enhancer
+#longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_C28
+#parent Overlay_Normal_Colon_Crypt_enhancers
+#type bigWig
+#color 183,183,218
+
+track Enhancer_Normal_Colon_Crypt_H3K27ac_C29
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/C29_H3K27ac/C29_out/signal/macs2/rep1/C29_H3K27ac.nodup.tagAlign_x_C29_Input.nodup.tagAlign.pval.signal.bw
+shortLabel C29_Enhancer
+longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_C29
+parent Overlay_Normal_Colon_Crypt_enhancers
+type bigWig
+color 183,183,218
+
+#track Enhancer_Normal_Colon_Crypt_H3K27ac_C37
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058023/suppl/GSM2058023_C37_H3K27ac.bw
+#shortLabel C37_Enhancer
+#longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_C37
+#parent Overlay_Normal_Colon_Crypt_enhancers
+#type bigWig
+#color 183,183,218
+
+track Enhancer_Normal_Colon_Crypt_H3K27ac_Crypt5
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/Crypt5_H3K27ac/Crypt5_out/signal/macs2/rep1/Crypt5_H3K27ac.nodup.tagAlign_x_Crypt5_Input.nodup.tagAlign.pval.signal.bw
+shortLabel Crypt5_Enhancer
+longLabel Enhancer_Normal_Colon_Crypt_H3K27ac_Crypt5
+parent Overlay_Normal_Colon_Crypt_enhancers
+type bigWig
+color 183,183,218
+
+################################################
+track Overlay_Normal_Colon_Crypt_enhancers_K4me1
+type bigWig
+container multiWig
+shortLabel NormalCryptMe1Enh
+longLabel This overlay track graphs signal from four H3K4me1 bigWig for normal colon crypt cells
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 1.1
+
+track Enhancer_Normal_Colon_Crypt_H3K4me1_C28
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/C28_H3K4me1/C28_out/signal/macs2/rep1/C28_H3K4me1.nodup.tagAlign_x_C28_Input.nodup.tagAlign.pval.signal.bw
+shortLabel C28_Enh_K4me1
+longLabel Enhancer_Normal_Colon_Crypt_H3K4me1_C28
+parent Overlay_Normal_Colon_Crypt_enhancers_K4me1
+type bigWig
+color 183,183,218
+
+track Enhancer_Normal_Colon_Crypt_H3K4me1_C29
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/C29_H3K4me1/C29_out/signal/macs2/rep1/C29_H3K4me1.nodup.tagAlign_x_C29_Input.nodup.tagAlign.pval.signal.bw
+shortLabel C29_Enh_K4me1
+longLabel Enhancer_Normal_Colon_Crypt_H3K4me1_C29
+parent Overlay_Normal_Colon_Crypt_enhancers_K4me1
+type bigWig
+color 183,183,218
+
+track Enhancer_Normal_Colon_Crypt_H3K4me1_C37
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/C37_H3K4me1/C37_out/signal/macs2/rep1/C37_H3K4me1.nodup.tagAlign_x_C37_Input.nodup.tagAlign.pval.signal.bw
+shortLabel C37_Enh_K4me1
+longLabel Enhancer_Normal_Colon_Crypt_H3K4me1_C37
+parent Overlay_Normal_Colon_Crypt_enhancers_K4me1
+type bigWig
+color 183,183,218
+
+track Enhancer_Normal_Colon_Crypt_H3K4me1_Crypt5
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/Crypt5_H3K4me1/Crypt5_out/signal/macs2/rep1/Crypt5_H3K4me1.nodup.tagAlign_x_Crypt5_Input.nodup.tagAlign.pval.signal.bw
+shortLabel Crypt5_Enh_K4me1
+longLabel Enhancer_Normal_Colon_Crypt_H3K4me1_Crypt5
+parent Overlay_Normal_Colon_Crypt_enhancers_K4me1
+type bigWig
+color 183,183,218
+
+################################################
+track Overlay_CRC_allStage_enhancers
+type bigWig
+container multiWig
+shortLabel CRC_K27ac_Enh
+longLabel This overlay track graphs signal from 31 H3K27ac bigWig for CRC cell lines and CRC cells
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 1.1
+
+track Enhancer_adenoma_H3K27ac_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V411_H3K27ac/V411_out/signal/macs2/rep1/V411_H3K27ac.nodup.tagAlign_x_V411_Input.nodup.tagAlign.pval.signal.bw
+shortLabel Adenoma_Enhancer
+longLabel Enhancer_adenoma_H3K27ac_V411
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K27ac_17A_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058053_CRC_17A_H3K27ac.bw
+shortLabel 17A_Enhancer
+longLabel Enhancer_primary_CRC_cells_H3K27ac_17A
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K27ac_23A_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058054_CRC_23A_H3K27ac.bw
+shortLabel 23A_Enhancer
+longLabel Enhancer_CRC_cell_line_H3K27ac_23A
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K27ac_6A_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058055_CRC_6A_H3K27ac.bw
+shortLabel 6A_Enhancer
+longLabel Enhancer_CRC_cell_line_H3K27ac_6A
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K27ac_7A_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058056_CRC_7A_H3K27ac.bw
+shortLabel 7A_Enhancer
+longLabel Enhancer_CRC_cell_line_H3K27ac_7A
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_SW480_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/SW480_H3K27ac/SW480_out/signal/macs2/rep1/SW480_H3K27ac.nodup.tagAlign_x_SW480_Input.nodup.tagAlign.pval.signal.bw
+shortLabel SW480_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_SW480
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1009_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1009_H3K27ac/V1009_out/signal/macs2/rep1/V1009_H3K27ac.nodup.tagAlign_x_V1009_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1009_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1009
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1024_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1024_H3K27ac/V1024_out/signal/macs2/rep1/V1024_H3K27ac.nodup.tagAlign_x_V1024_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1024_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1024
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1051_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1051_H3K27ac/V1051_out/signal/macs2/rep1/V1051_H3K27ac.nodup.tagAlign_x_V1051_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1051_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1051
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+#track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1058_all
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058031/suppl/GSM2058031_V1058_H3K27ac.bw
+#shortLabel V1058_Enhancer
+#longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1058
+#parent Overlay_CRC_allStage_enhancers
+#type bigWig
+#color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1074_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1074_H3K27ac/V1074_out/signal/macs2/rep1/V1074_H3K27ac.nodup.tagAlign_x_V1074_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1074_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1074
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+#track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1106_all
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058033/suppl/GSM2058033_V1106_H3K27ac.bw
+#shortLabel V1106_Enhancer
+#longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1106
+#parent Overlay_CRC_allStage_enhancers
+#type bigWig
+#color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V206_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V206_H3K27ac/V206_out/signal/macs2/rep1/V206_H3K27ac.nodup.tagAlign_x_V206_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V206_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V206
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V429_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V429_H3K27ac/V429_out/signal/macs2/rep1/V429_H3K27ac.nodup.tagAlign_x_V429_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V429_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V429
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V432_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V432_H3K27ac/V432_out/signal/macs2/rep1/V432_H3K27ac.nodup.tagAlign_x_V432_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V432_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V432
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V456_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V456_H3K27ac/V456_out/signal/macs2/rep1/V456_H3K27ac.nodup.tagAlign_x_V456_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V456_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V456
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V481_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V481_H3K27ac/V481_out/signal/macs2/rep1/V481_H3K27ac.nodup.tagAlign_x_V481_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V481_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V481
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V703_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V703_H3K27ac/V703_out/signal/macs2/rep1/V703_H3K27ac.nodup.tagAlign_x_V703_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V703_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V703
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V940_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V940_H3K27ac/V940_out/signal/macs2/rep1/V940_H3K27ac.nodup.tagAlign_x_V940_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V940_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V940
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V968_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V968_H3K27ac/V968_out/signal/macs2/rep1/V968_H3K27ac.nodup.tagAlign_x_V968_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V968_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V968
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+#track Enhancer_CRC_stageC_cellLine_H3K27ac_V389_all
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058035/suppl/GSM2058035_V389_H3K27ac.bw
+#shortLabel V389_Enhancer
+#longLabel Enhancer_CRC_cell_line_stageC_H3K27ac_V389
+#parent Overlay_CRC_allStage_enhancers
+#type bigWig
+#color 183,218,218
+
+track Enhancer_CRC_stageC_cellLine_H3K27ac_V5_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V5_H3K27ac/V5_out/signal/macs2/rep1/V5_H3K27ac.nodup.tagAlign_x_V5_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V5_Enhancer
+longLabel Enhancer_CRC_cell_line_stageC_H3K27ac_V5
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_stageD_cellLine_H3K27ac_COLO205_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/COLO205_H3K27ac/COLO205_out/signal/macs2/rep1/COLO205_H3K27ac.nodup.tagAlign_x_COLO205_Input.nodup.tagAlign.pval.signal.bw
+shortLabel COLO205_Enhancer
+longLabel Enhancer_CRC_cell_line_stageD_H3K27ac_COLO205
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_stageD_cellLine_H3K27ac_V852_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V852_H3K27ac/V852_out/signal/macs2/rep1/V852_H3K27ac.nodup.tagAlign_x_V852_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V852_Enhancer
+longLabel Enhancer_CRC_cell_line_stageD_H3K27ac_V852
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_stageD_cellLine_H3K27ac_V9P_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V9P_H3K27ac/V9P_out/signal/macs2/rep1/V9P_H3K27ac.nodup.tagAlign_x_V9P_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V9P_Enhancer
+longLabel Enhancer_CRC_cell_line_stageD_H3K27ac_V9P
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V410_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V410_H3K27ac/V410_out/signal/macs2/rep1/V410_H3K27ac.nodup.tagAlign_x_V410_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V410_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V410
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V457_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V457_H3K27ac/V457_out/signal/macs2/rep1/V457_H3K27ac.nodup.tagAlign_x_V457_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V457_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V457
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V576_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V576_H3K27ac/V576_out/signal/macs2/rep1/V576_H3K27ac.nodup.tagAlign_x_V576_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V576_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V576
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V784_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V784_H3K27ac/V784_out/signal/macs2/rep1/V784_H3K27ac.nodup.tagAlign_x_V784_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V784_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V784
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V855_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V855_H3K27ac/V855_out/signal/macs2/rep1/V855_H3K27ac.nodup.pval.signal.bw
+shortLabel V855_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V855
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V866_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V866_H3K27ac/V866_out/signal/macs2/rep1/V866_H3K27ac.nodup.tagAlign_x_V866_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V866_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V866
+parent Overlay_CRC_allStage_enhancers
+type bigWig
+color 183,218,218
+
+################################################
+track Overlay_CRC_allStage_enh_K4me1
+type bigWig
+container multiWig
+shortLabel CRC_K4me1_Enh
+longLabel This overlay track graphs signal from 28 H3K4me1 bigWig for CRC cell lines and CRC cells
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 1.1
+
+track Enhancer_adenoma_H3K4me1_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V411_H3K4me1/V411_out/signal/macs2/rep1/V411_H3K4me1.nodup.tagAlign_x_V411_Input.nodup.tagAlign.pval.signal.bw
+shortLabel Adenoma_Enh_K4me1
+longLabel Enhancer_adenoma_H3K4me1_V411
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_17A_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058090_CRC_17A_H3K4me1.bw
+shortLabel 17A_Enh_K4me1
+longLabel Enhancer_primary_CRC_cells_H3K4me1_17A
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_23A_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058091_CRC_23A_H3K4me1.bw
+shortLabel 23A_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_H3K4me1_23A
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_6A_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058092_CRC_6A_H3K4me1.bw
+shortLabel 6A_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_H3K4me1_6A
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_7A_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058093_CRC_7A_H3K4me1.bw
+shortLabel 7A_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_H3K4me1_7A
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_SW480_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/SW480_H3K4me1/SW480_out/signal/macs2/rep1/SW480_H3K4me1.nodup.tagAlign_x_SW480_Input.nodup.tagAlign.pval.signal.bw
+shortLabel SW480_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_SW480
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V1009_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V1009_H3K4me1/V1009_out/signal/macs2/rep1/V1009_H3K4me1.nodup.tagAlign_x_V1009_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1009_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V1009
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V1024_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V1024_H3K4me1/V1024_out/signal/macs2/rep1/V1024_H3K4me1.nodup.tagAlign_x_V1024_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1024_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V1024
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V1058_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V1058_H3K4me1/V1058_out/signal/macs2/rep1/V1058_H3K4me1.nodup.tagAlign_x_V1058_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1058_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V1058
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V1074_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V1074_H3K4me1/V1074_out/signal/macs2/rep1/V1074_H3K4me1.nodup.tagAlign_x_V1074_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1074_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V1074
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V1106_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V1106_H3K4me1/V1106_out/signal/macs2/rep1/V1106_H3K4me1.nodup.tagAlign_x_V1106_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1106_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V1106
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V206_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V206_H3K4me1/V206_out/signal/macs2/rep1/V206_H3K4me1.nodup.tagAlign_x_V206_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V206_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V206
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V429_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V429_H3K4me1/V429_out/signal/macs2/rep1/V429_H3K4me1.nodup.tagAlign_x_V429_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V429_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V429
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V432_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V432_H3K4me1/V432_out/signal/macs2/rep1/V432_H3K4me1.nodup.tagAlign_x_V432_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V432_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V432
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V456_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V456_H3K4me1/V456_out/signal/macs2/rep1/V456_H3K4me1.nodup.tagAlign_x_V456_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V456_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V456
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V481_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V481_H3K4me1/V481_out/signal/macs2/rep1/V481_H3K4me1.nodup.tagAlign_x_V481_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V481_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V481
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V940_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V940_H3K4me1/V940_out/signal/macs2/rep1/V940_H3K4me1.nodup.tagAlign_x_V940_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V940_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V940
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V968_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V968_H3K4me1/V968_out/signal/macs2/rep1/V968_H3K4me1.nodup.tagAlign_x_V968_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V968_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageB_H3K4me1_V968
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+#track Enhancer_primary_CRC_cells_H3K4me1_V389_all
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058072/suppl/GSM2058072_V389_H3K4me1.bw
+#shortLabel V389_Enh_K4me1
+#longLabel Enhancer_CRC_cell_line_stageC_H3K4me1_V389
+#parent Overlay_CRC_allStage_enh_K4me1
+#type bigWig
+#color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_COLO205_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/COLO205_H3K4me1/COLO205_out/signal/macs2/rep1/COLO205_H3K4me1.nodup.tagAlign_x_COLO205_Input.nodup.tagAlign.pval.signal.bw
+shortLabel COLO205_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageD_H3K4me1_COLO205
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V852_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V852_H3K4me1/V852_out/signal/macs2/rep1/V852_H3K4me1.nodup.tagAlign_x_V852_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V852_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_stageD_H3K4me1_V852
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V410_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V410_H3K4me1/V410_out/signal/macs2/rep1/V410_H3K4me1.nodup.tagAlign_x_V410_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V410_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_livmet_H3K4me1_V410
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V457_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V457_H3K4me1/V457_out/signal/macs2/rep1/V457_H3K4me1.nodup.tagAlign_x_V457_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V457_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_livmet_H3K4me1_V457
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V576_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V576_H3K4me1/V576_out/signal/macs2/rep1/V576_H3K4me1.nodup.tagAlign_x_V576_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V576_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_livmet_H3K4me1_V576
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V784_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V784_H3K4me1/V784_out/signal/macs2/rep1/V784_H3K4me1.nodup.tagAlign_x_V784_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V784_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_livmet_H3K4me1_V784
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V855_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V855_H3K4me1/V855_out/signal/macs2/rep1/V855_H3K4me1.nodup.tagAlign_x_V855_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V855_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_livmet_H3K4me1_V855
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K4me1_V866_all
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k4me1/V866_H3K4me1/V866_out/signal/macs2/rep1/V866_H3K4me1.nodup.tagAlign_x_V866_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V866_Enh_K4me1
+longLabel Enhancer_CRC_cell_line_livmet_H3K4me1_V866
+parent Overlay_CRC_allStage_enh_K4me1
+type bigWig
+color 183,218,218
+
+
+
+################################################
+track Overlay_Primary_CRC_enhancers
+type bigWig
+container multiWig
+shortLabel Prm_CRC_enhancers
+longLabel This overlay track graphs signal from four H3K27ac bigWig for Primary CRC Cells
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:11
+viewLimits 1:20
+priority 3
+
+track Enhancer_primary_CRC_cells_H3K27ac_17A
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058053_CRC_17A_H3K27ac.bw
+shortLabel 17A_Enhancer
+longLabel Enhancer_primary_CRC_cells_H3K27ac_17A
+parent Overlay_Primary_CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K27ac_23A
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058054_CRC_23A_H3K27ac.bw
+shortLabel 23A_Enhancer
+longLabel Enhancer_CRC_cell_line_H3K27ac_23A
+parent Overlay_Primary_CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K27ac_6A
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058055_CRC_6A_H3K27ac.bw
+shortLabel 6A_Enhancer
+longLabel Enhancer_CRC_cell_line_H3K27ac_6A
+parent Overlay_Primary_CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_primary_CRC_cells_H3K27ac_7A
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058056_CRC_7A_H3K27ac.bw
+shortLabel 7A_Enhancer
+longLabel Enhancer_CRC_cell_line_H3K27ac_7A
+parent Overlay_Primary_CRC_enhancers
+type bigWig
+color 183,218,218
+
+################################################
+track Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+container multiWig
+shortLabel StageB_enhancers
+longLabel This overlay track graphs signal from fifteen H3K27ac bigWig for Stage B CRC cell lines
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 4
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_SW480
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/SW480_H3K27ac/SW480_out/signal/macs2/rep1/SW480_H3K27ac.nodup.tagAlign_x_SW480_Input.nodup.tagAlign.pval.signal.bw
+shortLabel SW480_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_SW480
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1009
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1009_H3K27ac/V1009_out/signal/macs2/rep1/V1009_H3K27ac.nodup.tagAlign_x_V1009_Input.nodup.tagAlign.pval.signal.bw
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1009
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1024
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1024_H3K27ac/V1024_out/signal/macs2/rep1/V1024_H3K27ac.nodup.tagAlign_x_V1024_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1024_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1024
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1051
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1051_H3K27ac/V1051_out/signal/macs2/rep1/V1051_H3K27ac.nodup.tagAlign_x_V1051_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1051_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1051
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+#track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1058
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058031/suppl/GSM2058031_V1058_H3K27ac.bw
+#shortLabel V1058_Enhancer
+#longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1058
+#parent Overlay_CRC_CellLine_stageB_enhancers
+#type bigWig
+#color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1074
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1074_H3K27ac/V1074_out/signal/macs2/rep1/V1074_H3K27ac.nodup.tagAlign_x_V1074_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1074_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1074
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+#track Enhancer_CRC_Bstage_cellLine_H3K27ac_V1106
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058033/suppl/GSM2058033_V1106_H3K27ac.bw
+#shortLabel V1106_Enhancer
+#longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V1106
+#parent Overlay_CRC_CellLine_stageB_enhancers
+#type bigWig
+#color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V206
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V206_H3K27ac/V206_out/signal/macs2/rep1/V206_H3K27ac.nodup.tagAlign_x_V206_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V206_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V206
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V429
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V429_H3K27ac/V429_out/signal/macs2/rep1/V429_H3K27ac.nodup.tagAlign_x_V429_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V429_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V429
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V432
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V432_H3K27ac/V432_out/signal/macs2/rep1/V432_H3K27ac.nodup.tagAlign_x_V432_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V432_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V432
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V456
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V456_H3K27ac/V456_out/signal/macs2/rep1/V456_H3K27ac.nodup.tagAlign_x_V456_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V456_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V456
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V481
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V481_H3K27ac/V481_out/signal/macs2/rep1/V481_H3K27ac.nodup.tagAlign_x_V481_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V481_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V481
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V703
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V703_H3K27ac/V703_out/signal/macs2/rep1/V703_H3K27ac.nodup.tagAlign_x_V703_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V703_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V703
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V940
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V940_H3K27ac/V940_out/signal/macs2/rep1/V940_H3K27ac.nodup.tagAlign_x_V940_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V940_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V940
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_Bstage_cellLine_H3K27ac_V968
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V968_H3K27ac/V968_out/signal/macs2/rep1/V968_H3K27ac.nodup.tagAlign_x_V968_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V968_Enhancer
+longLabel Enhancer_CRC_cell_line_stageB_H3K27ac_V968
+parent Overlay_CRC_CellLine_stageB_enhancers
+type bigWig
+color 183,218,218
+
+################################################
+track Overlay_CRC_CellLine_stageCD_enhancers
+type bigWig
+container multiWig
+shortLabel StageCD_enhancers
+longLabel This overlay track graphs signal from five H3K27ac bigWig for Stage C and D CRC cell lines
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 5
+
+#track Enhancer_CRC_stageC_cellLine_H3K27ac_V389
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058035/suppl/GSM2058035_V389_H3K27ac.bw
+#shortLabel V389_Enhancer
+#longLabel Enhancer_CRC_cell_line_stageC_H3K27ac_V389
+#parent Overlay_CRC_CellLine_stageCD_enhancers
+#type bigWig
+#color 183,218,218
+
+track Enhancer_CRC_stageC_cellLine_H3K27ac_V5
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V5_H3K27ac/V5_out/signal/macs2/rep1/V5_H3K27ac.nodup.tagAlign_x_V5_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V5_Enhancer
+longLabel Enhancer_CRC_cell_line_stageC_H3K27ac_V5
+parent Overlay_CRC_CellLine_stageCD_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_stageD_cellLine_H3K27ac_COLO205
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/COLO205_H3K27ac/COLO205_out/signal/macs2/rep1/COLO205_H3K27ac.nodup.tagAlign_x_COLO205_Input.nodup.tagAlign.pval.signal.bw
+shortLabel COLO205_Enhancer
+longLabel Enhancer_CRC_cell_line_stageD_H3K27ac_COLO205
+parent Overlay_CRC_CellLine_stageCD_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_stageD_cellLine_H3K27ac_V852
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V852_H3K27ac/V852_out/signal/macs2/rep1/V852_H3K27ac.nodup.tagAlign_x_V852_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V852_Enhancer
+longLabel Enhancer_CRC_cell_line_stageD_H3K27ac_V852
+parent Overlay_CRC_CellLine_stageCD_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_stageD_cellLine_H3K27ac_V9P
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V9P_H3K27ac/V9P_out/signal/macs2/rep1/V9P_H3K27ac.nodup.tagAlign_x_V9P_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V9P_Enhancer
+longLabel Enhancer_CRC_cell_line_stageD_H3K27ac_V9P
+parent Overlay_CRC_CellLine_stageCD_enhancers
+type bigWig
+color 183,218,218
+
+################################################
+track Overlay_CRC_CellLine_livermet_enhancers
+type bigWig
+container multiWig
+shortLabel Livmet_enhancers
+longLabel This overlay track graphs signal from six H3K27ac bigWig for liver metastasized CRC cell lines
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 6
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V410
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V410_H3K27ac/V410_out/signal/macs2/rep1/V410_H3K27ac.nodup.tagAlign_x_V410_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V410_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V410
+parent Overlay_CRC_CellLine_livermet_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V457
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V457_H3K27ac/V457_out/signal/macs2/rep1/V457_H3K27ac.nodup.tagAlign_x_V457_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V457_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V457
+parent Overlay_CRC_CellLine_livermet_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V576
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V576_H3K27ac/V576_out/signal/macs2/rep1/V576_H3K27ac.nodup.tagAlign_x_V576_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V576_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V576
+parent Overlay_CRC_CellLine_livermet_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V784
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V784_H3K27ac/V784_out/signal/macs2/rep1/V784_H3K27ac.nodup.tagAlign_x_V784_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V784_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V784
+parent Overlay_CRC_CellLine_livermet_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V855
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V855_H3K27ac/V855_out/signal/macs2/rep1/V855_H3K27ac.nodup.pval.signal.bw
+shortLabel V855_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V855
+parent Overlay_CRC_CellLine_livermet_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_CRC_livermet_cellLine_H3K27ac_V866
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V866_H3K27ac/V866_out/signal/macs2/rep1/V866_H3K27ac.nodup.tagAlign_x_V866_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V866_Enhancer
+longLabel Enhancer_CRC_cell_line_livmet_H3K27ac_V866
+parent Overlay_CRC_CellLine_livermet_enhancers
+type bigWig
+color 183,218,218
+
+################################################
+track Overlay_Normal_Colon_Crypt_DHS
+type bigWig
+container multiWig
+shortLabel NormalCrypt_Dhs
+longLabel This overlay track graphs signal from three DHS bigWig for normal colon crypt cells
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 7
+
+track DNA_accessible_Normal_Colon_Crypt_DHS_C31
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/DNase/processed/C31/C31_out/signal/macs2/rep1/C31_DNase.trim.nodup.pf.pval.signal.bigwig
+shortLabel C31_dhs
+longLabel DNA_accessible_Normal_Colon_Crypt_DHS_C31
+parent Overlay_Normal_Colon_Crypt_DHS
+type bigWig
+color 183,183,218
+
+track DNA_accessible_Normal_Colon_Crypt_DHS_C34
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/DNase/processed/C34/C34_out/signal/macs2/rep1/C34_DNase.trim.nodup.pf.pval.signal.bigwig
+shortLabel C34_dhs
+longLabel DNA_accessible_Normal_Colon_Crypt_DHS_C34
+parent Overlay_Normal_Colon_Crypt_DHS
+type bigWig
+color 183,183,218
+
+track DNA_accessible_Normal_Colon_Crypt_DHS_C36
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/DNase/processed/C36/C36_out/signal/macs2/rep1/C36_DNase.trim.nodup.pf.pval.signal.bigwig
+shortLabel C36_dhs
+longLabel DNA_accessible_Normal_Colon_Crypt_DHS_C36
+parent Overlay_Normal_Colon_Crypt_DHS
+type bigWig
+color 183,183,218
+
+################################################
+track Overlay_CRC_DHS
+type bigWig
+container multiWig
+shortLabel CRC_Dhs
+longLabel This overlay track graphs signal from three DHS bigWig for CRC cell lines
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 8
+
+track DNA_accessible_CRC_DHS_V389
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/DNase/processed/V389/V389_out/signal/macs2/rep1/V389_DNase.trim.nodup.pf.pval.signal.bigwig
+shortLabel V389_dhs
+longLabel DNA_accessible_CRC_DHS_V389
+parent Overlay_CRC_DHS
+type bigWig
+color 183,218,218
+
+track DNA_accessible_CRC_DHS_V410
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/DNase/processed/V410/V410_out/signal/macs2/rep1/V410_DNase.trim.nodup.pf.pval.signal.bigwig
+shortLabel V410_dhs
+longLabel DNA_accessible_CRC_DHS_V410
+parent Overlay_CRC_DHS
+type bigWig
+color 183,218,218
+
+track DNA_accessible_CRC_DHS_V576
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/DNase/processed/V576/V576_out/signal/macs2/rep1/V576_DNase.trim.nodup.pf.pval.signal.bigwig
+shortLabel V576_dhs
+longLabel DNA_accessible_CRC_DHS_V576
+parent Overlay_CRC_DHS
+type bigWig
+color 183,218,218
+
+
+################################################
+track Overlay_Normal_Colon_Mucosa_ATAC
+type bigWig
+container multiWig
+shortLabel NormalMucosa_ATAC
+longLabel This overlay track graphs signal from four ATACseq bigWig for Normal Colon Mucosa
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 150:75:0
+viewLimits 1:20
+priority 8
+
+track DNA_accessible_CRC_ATAC_Fr1
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/PKG_jhuyghe/Fr_1.R1.trim.PE2SE.nodup.tn5.pf.pval.signal.bigwig
+shortLabel Fr1_atac
+longLabel DNA_accessible_Normal_Colon_Mucosa_ATAC_Fr1
+parent Overlay_Normal_Colon_Mucosa_ATAC
+type bigWig
+color 183,183,218
+
+track DNA_accessible_CRC_ATAC_Fr2
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/PKG_jhuyghe/Fr_2.R1.trim.PE2SE.nodup.tn5.pf.pval.signal.bigwig
+shortLabel Fr2_atac
+longLabel DNA_accessible_Normal_Colon_Mucosa_ATAC_Fr2
+parent Overlay_Normal_Colon_Mucosa_ATAC
+type bigWig
+color 183,183,218
+
+track DNA_accessible_CRC_ATAC_Fr3_1
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/PKG_jhuyghe/Fr3_1.R1.trim.PE2SE.nodup.tn5.pf.pval.signal.bigwig
+shortLabel Fr3_1_atac
+longLabel DNA_accessible_Normal_Colon_Mucosa_ATAC_Fr3_1
+parent Overlay_Normal_Colon_Mucosa_ATAC
+type bigWig
+color 183,183,218
+
+track DNA_accessible_CRC_ATAC_Fr4
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/PKG_jhuyghe/Fr_4.R1.trim.PE2SE.nodup.tn5.pf.pval.signal.bigwig
+shortLabel Fr3_1_atac
+longLabel DNA_accessible_Normal_Colon_Mucosa_ATAC_Fr4
+parent Overlay_Normal_Colon_Mucosa_ATAC
+type bigWig
+color 183,183,218
+
+################################################
+track Normal_enhancers
+type bigWig
+compositeTrack off
+shortLabel Colon crypt_enh
+longLabel Colon crypt enhancer H3K27ac signal
+maxHeightPixels 150:75:0
+visibility full
+priority 9
+
+track Enhancer_Crypt5_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/Crypt5_H3K27ac/Crypt5_out/signal/macs2/rep1/Crypt5_H3K27ac.nodup.tagAlign_x_Crypt5_Input.nodup.tagAlign.pval.signal.bw
+shortLabel Crypt5_Enhancer
+longLabel Enhancer_normal_crypt_H3K27ac_Crypt5
+parent Normal_enhancers
+type bigWig
+color 183,183,218
+
+#track Enhancer_C37_H3K27ac
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058023/suppl/GSM2058023_C37_H3K27ac.bw
+#shortLabel C37_Enhancer
+#longLabel Enhancer_normal_crypt_H3K27ac_C37
+#parent Normal_enhancers
+#type bigWig
+#color 183,183,218
+
+track Enhancer_C29_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/C29_H3K27ac/C29_out/signal/macs2/rep1/C29_H3K27ac.nodup.tagAlign_x_C29_Input.nodup.tagAlign.pval.signal.bw
+shortLabel C29_Enhancer
+longLabel Enhancer_normal_crypt_H3K27ac_C29
+parent Normal_enhancers
+type bigWig
+color 183,183,218
+
+#track Enhancer_C28_H3K27ac
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058021/suppl/GSM2058021_C28_H3K27ac.bw
+#shortLabel C28_Enhancer
+#longLabel Enhancer_normal_crypt_H3K27ac_C28
+#parent Normal_enhancers
+#type bigWig
+
+################################################
+track Normal_DHS
+type bigWig
+compositeTrack off
+shortLabel Colon crypt DHS
+longLabel Colon crypt DNA accessibility signal
+maxHeightPixels 150:75:0
+visibility full
+priority 10
+
+track DHS_C31
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/DNase/processed/C31/C31_out/signal/macs2/rep1/C31_DNase.trim.nodup.pf.pval.signal.bigwig
+shortLabel C31_DHS
+longLabel DNA_accessible_normal_crypt_DHS_C31
+parent Normal_DHS
+type bigWig
+color 183,183,218
+
+track DHS_C34
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/DNase/processed/C34/C34_out/signal/macs2/rep1/C34_DNase.trim.nodup.pf.pval.signal.bigwig
+shortLabel C34_DHS
+longLabel DNA_accessible_normal_crypt_DHS_C34
+parent Normal_DHS
+type bigWig
+color 183,183,218
+
+track DHS_C36
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/DNase/processed/C36/C36_out/signal/macs2/rep1/C36_DNase.trim.nodup.pf.pval.signal.bigwig
+shortLabel C36_DHS
+longLabel DNA_accessible_normal_crypt_DHS_C36
+parent Normal_DHS
+type bigWig
+color 183,183,218
+
+################################################
+track CRC_enhancers
+type bigWig
+compositeTrack off
+shortLabel CRC_enh
+longLabel CRC_enhancer_H3K27ac_signal
+maxHeightPixels 150:75:0
+visibility full
+priority 11
+
+track Enhancer_V411_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V411_H3K27ac/V411_out/signal/macs2/rep1/V411_H3K27ac.nodup.tagAlign_x_V411_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V411_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V411
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_HCT116_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/HCT116_H3K27ac/out/signal/macs2/rep1/HCT116_H3K27ac.nodup.tagAlign_x_HCT116_Input.nodup.tagAlign.pval.signal.bw
+shortLabel HCT116_Enhancer
+longLabel Enhancer_CRC_H3K27ac_HCT116
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_SW480_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/SW480_H3K27ac/SW480_out/signal/macs2/rep1/SW480_H3K27ac.nodup.tagAlign_x_SW480_Input.nodup.tagAlign.pval.signal.bw
+shortLabel SW480_Enhancer
+longLabel Enhancer_CRC_H3K27ac_SW480
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V1009_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1009_H3K27ac/V1009_out/signal/macs2/rep1/V1009_H3K27ac.nodup.tagAlign_x_V1009_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1009_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1009
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V1024_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1024_H3K27ac/V1024_out/signal/macs2/rep1/V1024_H3K27ac.nodup.tagAlign_x_V1024_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1024_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1024
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V1051_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1051_H3K27ac/V1051_out/signal/macs2/rep1/V1051_H3K27ac.nodup.tagAlign_x_V1051_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1051_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1051
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+#track Enhancer_V1058_H3K27ac
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058031/suppl/GSM2058031_V1058_H3K27ac.bw
+#shortLabel V1058_Enhancer
+#longLabel Enhancer_CRC_H3K27ac_V1058
+#parent CRC_enhancers
+#type bigWig
+#color 183,218,218
+
+track Enhancer_V1074_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V1074_H3K27ac/V1074_out/signal/macs2/rep1/V1074_H3K27ac.nodup.tagAlign_x_V1074_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V1074_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V1074
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+#track Enhancer_V1106_H3K27ac
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058033/suppl/GSM2058033_V1106_H3K27ac.bw
+#shortLabel V1106_Enhancer
+#longLabel Enhancer_CRC_H3K27ac_V1106
+#parent CRC_enhancers
+#type bigWig
+#color 183,218,218
+
+track Enhancer_V206_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V206_H3K27ac/V206_out/signal/macs2/rep1/V206_H3K27ac.nodup.tagAlign_x_V206_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V206_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V206
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V429_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V429_H3K27ac/V429_out/signal/macs2/rep1/V429_H3K27ac.nodup.tagAlign_x_V429_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V429_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V429
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V432_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V432_H3K27ac/V432_out/signal/macs2/rep1/V432_H3K27ac.nodup.tagAlign_x_V432_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V432_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V432
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V456_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V456_H3K27ac/V456_out/signal/macs2/rep1/V456_H3K27ac.nodup.tagAlign_x_V456_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V456_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V456
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V481_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V481_H3K27ac/V481_out/signal/macs2/rep1/V481_H3K27ac.nodup.tagAlign_x_V481_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V481_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V481
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V703_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V703_H3K27ac/V703_out/signal/macs2/rep1/V703_H3K27ac.nodup.tagAlign_x_V703_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V703_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V703
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V940_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V940_H3K27ac/V940_out/signal/macs2/rep1/V940_H3K27ac.nodup.tagAlign_x_V940_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V940_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V940
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V968_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V968_H3K27ac/V968_out/signal/macs2/rep1/V968_H3K27ac.nodup.tagAlign_x_V968_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V968_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V968
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+#track Enhancer_V389_H3K27ac
+#bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2058nnn/GSM2058035/suppl/GSM2058035_V389_H3K27ac.bw
+#shortLabel V389_Enhancer
+#longLabel Enhancer_CRC_H3K27ac_V389
+#parent CRC_enhancers
+#type bigWig
+#color 183,218,218
+
+track Enhancer_V5_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V5_H3K27ac/V5_out/signal/macs2/rep1/V5_H3K27ac.nodup.tagAlign_x_V5_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V5_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V5
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_COLO205_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/COLO205_H3K27ac/COLO205_out/signal/macs2/rep1/COLO205_H3K27ac.nodup.tagAlign_x_COLO205_Input.nodup.tagAlign.pval.signal.bw
+shortLabel COLO205_Enhancer
+longLabel Enhancer_CRC_H3K27ac_COLO205
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V852_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V852_H3K27ac/V852_out/signal/macs2/rep1/V852_H3K27ac.nodup.tagAlign_x_V852_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V852_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V852
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V9P_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V9P_H3K27ac/V9P_out/signal/macs2/rep1/V9P_H3K27ac.nodup.tagAlign_x_V9P_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V9P_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V9P
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V410_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V410_H3K27ac/V410_out/signal/macs2/rep1/V410_H3K27ac.nodup.tagAlign_x_V410_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V410_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V410
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V457_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V457_H3K27ac/V457_out/signal/macs2/rep1/V457_H3K27ac.nodup.tagAlign_x_V457_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V457_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V457
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V576_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V576_H3K27ac/V576_out/signal/macs2/rep1/V576_H3K27ac.nodup.tagAlign_x_V576_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V576_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V576
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V784_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V784_H3K27ac/V784_out/signal/macs2/rep1/V784_H3K27ac.nodup.tagAlign_x_V784_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V784_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V784
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V855_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V855_H3K27ac/V855_out/signal/macs2/rep1/V855_H3K27ac.nodup.pval.signal.bw
+shortLabel V855_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V855
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_V866_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/Batch1/chip_seq/h3k27ac/V866_H3K27ac/V866_out/signal/macs2/rep1/V866_H3K27ac.nodup.tagAlign_x_V866_Input.nodup.tagAlign.pval.signal.bw
+shortLabel V866_Enhancer
+longLabel Enhancer_CRC_H3K27ac_V866
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_17A_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058053_CRC_17A_H3K27ac.bw
+shortLabel CRC_17A_Enhancer
+longLabel Enhancer_CRC_H3K27ac_17A
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_23A_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058054_CRC_23A_H3K27ac.bw
+shortLabel CRC_23A_Enhancer
+longLabel Enhancer_CRC_H3K27ac_23A
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_6A_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058055_CRC_6A_H3K27ac.bw
+shortLabel CRC_6A_Enhancer
+longLabel Enhancer_CRC_H3K27ac_6A
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+track Enhancer_7A_H3K27ac
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058056_CRC_7A_H3K27ac.bw
+shortLabel CRC_7A_Enhancer
+longLabel Enhancer_CRC_H3K27ac_7A
+parent CRC_enhancers
+type bigWig
+color 183,218,218
+
+################################################
+track Colon_CRC_repressors
+type bigWig
+compositeTrack off
+shortLabel Rep
+longLabel Colon_CRC_repressor_H3K27me3_signal
+maxHeightPixels 150:75:0
+visibility full
+priority 11
+
+track Repressor_V410_H3K27me3
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058058_V410_H3K27me3.bw
+shortLabel V410_Repressor
+longLabel Repressor_CRC_H3K27me3_V410
+parent Colon_CRC_repressors
+type bigWig
+color 218,183,183
+
+track Repressor_C28_H3K27me3
+bigDataUrl http://mitra.stanford.edu/kundaje/projects/GECCO/tracks/other/GSM2058057_C28_H3K27me3.bw
+shortLabel C28_Repressor
+longLabel Repressor_Normal_Crypt_H3K27me3_C28
+parent Colon_CRC_repressors
+type bigWig
+color 218,218,183
+
